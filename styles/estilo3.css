@@ -37,7 +37,7 @@ main {
 }
 footer {
   padding: 15px;
-  background-color: rgba(71, 109, 147, 1);
+  background-color: rgb(120, 164, 209);
   color: white;
   grid-column: 1 / 4;
 }
