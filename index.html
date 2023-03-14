@@ -7,45 +7,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elementos de HTML</title>
     <style>
-        table, th, td {
-          border:1px solid black;
+        table,
+        th,
+        td {
+            border: 1px solid black;
         }
-        </style>
+
+        thead {
+            background-color: rgb(25, 151, 234);
+            color: white;
+        }
+        caption {
+            background-color: rgb(243, 78, 45);
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
-    <h2>Elementos HTML vistos en clase:</h2>
+    <a href="paginas/elemento_semantico.html">Elementos semanticos</a>
+    <a href="paginas/manejo_texto.html">Manejo de texto</a>
     <table style="width:100%">
-        <tr>
-            <th>Nombre</th>
-            <th>Descripcion</th>
-            <th>Uso</th>
-        </tr>
-        <tr>
-            <td>div</td>
-            <td>El elemento HTML div es el contenedor genérico para el contenido de flujo. No tiene ningún efecto en el contenido o el diseño hasta que se diseña de alguna manera usando CSS </td>
-            <td>El elemento debe usarse solo cuando ningún otro elemento semántico (como artículo o nav) es apropiado.</td>
-        </tr>
-        <tr>
-            <td>p</td>
-            <td>El elemento HTML p representa un párrafo. Los párrafos generalmente se representan en medios visuales como bloques de texto separados de bloques adyacentes por líneas en blanco y / o sangría de primera línea, pero los párrafos HTML pueden ser cualquier agrupación estructural de contenido relacionado, como imágenes o campos de formulario.</td>
-            <td>De forma predeterminada, los navegadores separan los párrafos con una sola línea en blanco. Los métodos de separación alternativos, como la sangría de primera línea, se pueden lograr con CSS</td>
-        </tr>
-        <tr>
-            <td>table</td>
-            <td>El elemento HTML table representa datos tabulares, es decir, información presentada en una tabla bidimensional compuesta por filas y columnas de celdas que contienen datos.</td>
-            <td>Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y Columnas.</td>
-        </tr>
-        <tr>
-            <td>form</td>
-            <td>El elemento HTML form representa una sección de documento que contiene controles interactivos para enviar información.</td>
-            <td>Es util para hacer formularios.</td>
-        </tr>
-        <tr>
-            <td>h1 - h6</td>
-            <td>Los elementos HTML h1 a h6 representan seis niveles de encabezados de sección. es el nivel de sección más alto y es el más bajo.</td>
-            <td>Hace titulos desde el mas grande h1 hasta el mas pequeño h6</td>
-        </tr>
+        <caption>
+            Elementos HTML vistos en clase
+        </caption>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Descripcion</th>
+                <th>Uso</th>
+            </tr>
+        </thead>
+        <TBody>
+            <tr>
+                <td>div</td>
+                <td>El elemento HTML div es el contenedor genérico para el contenido de flujo. No tiene ningún efecto en
+                    el contenido o el diseño hasta que se diseña de alguna manera usando CSS </td>
+                <td>El elemento debe usarse solo cuando ningún otro elemento semántico (como artículo o nav) es
+                    apropiado.</td>
+            </tr>
+            <tr>
+                <td>p</td>
+                <td>El elemento HTML p representa un párrafo. Los párrafos generalmente se representan en medios
+                    visuales como bloques de texto separados de bloques adyacentes por líneas en blanco y / o sangría de
+                    primera línea, pero los párrafos HTML pueden ser cualquier agrupación estructural de contenido
+                    relacionado, como imágenes o campos de formulario.</td>
+                <td>De forma predeterminada, los navegadores separan los párrafos con una sola línea en blanco. Los
+                    métodos de separación alternativos, como la sangría de primera línea, se pueden lograr con CSS</td>
+            </tr>
+            <tr>
+                <td>table</td>
+                <td>El elemento HTML table representa datos tabulares, es decir, información presentada en una tabla
+                    bidimensional compuesta por filas y columnas de celdas que contienen datos.</td>
+                <td>Las tablas HTML permiten a los desarrolladores web organizar los datos en filas y Columnas.</td>
+            </tr>
+            <tr>
+                <td>form</td>
+                <td>El elemento HTML form representa una sección de documento que contiene controles interactivos para
+                    enviar información.</td>
+                <td>Es util para hacer formularios.</td>
+            </tr>
+            <tr>
+                <td>h1 - h6</td>
+                <td>Los elementos HTML h1 a h6 representan seis niveles de encabezados de sección. es el nivel de
+                    sección más alto y es el más bajo.</td>
+                <td>Hace titulos desde el mas grande h1 hasta el mas pequeño h6</td>
+            </tr>
+            <tr>
+                <td>span</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </TBody>
+        <TFoot>
+            <tr>
+                <td>h2</td>
+                <td>El elemento HTML h2 a h2</td>
+                <td>El elemento HTML h2 a h2</td>
+            </tr>
+        </TFoot>
     </table>
 </body>
+
 </html>
